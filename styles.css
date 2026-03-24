@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;              
+  padding: 0;             
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #ffffff; 
+  display: flex;        
+  justify-content: center;
+  align-items: center;       
+  min-height: 100vh;         
+  padding: 20px;             
+}
+
+.body-align {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  color: #7c7c7c;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#app {
+    background-color: #ffffff; 
+    border-radius: 16px;       
+    padding: 40px;             
+    max-width: 500px;          
+    width: 100%;               
+    color: #eee;               
+    box-shadow: 0 20px 60px rgba(70, 70, 70, 0.5); 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#app > div {
+    width: 50%;
+}
+
+h4 {
+  letter-spacing: 1px;
+  color: #b2afcf;
+  text-align: center;
+}
+
+#number {
+  font-size: 103px;
+  font-weight: bold;
+  color: #1d00fc;
+  text-align: center;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#aumentar {
+    margin-top: 24px;
+    width: 100%;
+    padding: 14px;
+    background: #1d00fc; 
+    border: none;       
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#disminuir {
+    margin-top: 24px;
+    width: 100%;
+    padding: 14px;
+    background: #d6d6d6; 
+    border: none;       
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: #1d00fc;
+    font-weight: bold;
+}
